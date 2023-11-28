@@ -1,0 +1,253 @@
+html,
+#root {
+  height: 100%;
+}
+
+* {
+  font-size: 13px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, clean,
+    sans-serif;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+}
+
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, clean,
+    sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+.header {
+  background-color: #23aaaa;
+}
+
+.footer {
+  background-color: #23aaaa;
+}
+
+.footer h4 {
+  font-size: 14px;
+  color: #fff;
+  line-height: 15.400000000000002px;
+}
+
+.footer a {
+  line-height: 20px;
+  font-size: 13px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .footer-social {
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 43px;
+  height: 42px;
+}
+
+.footer .footer-social .fb-icon {
+  margin-top: -6px;
+  margin-left: -9px;
+}
+
+.footer .footer-social .fb-icon img {
+  width: 150px;
+  height: 100px;
+  --loader-delay-offset: 350ms !important;
+}
+
+/* Home */
+.mainText {
+  color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.6) 3px 3px 6px;
+  text-align: center;
+}
+/* register */
+.signup {
+  width: 100%;
+  height: 100vh;
+  max-height: 10000px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-image: url(); */
+}
+
+/* Login */
+.customField {
+  padding: 8px 12px;
+  height: 40px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(211, 214, 214);
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  opacity: 1;
+  color: rgb(84, 84, 84);
+  margin-bottom: 10px;
+}
+.customField:focus {
+  border-color: #f15786;
+}
+
+#loginModal .modal-content {
+  width: 280px;
+}
+.login {
+  width: 100%;
+  height: 100vh;
+  max-height: 10000px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-image: url(); */
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 16px;
+}
+
+.home-logo {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#input-group-menu {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", sans-serif;
+}
+/* Common */
+.btn {
+  border-radius: 2px;
+  color: #fff;
+  font-size: 14px;
+}
+.btn-check:checked + .btn,
+:not(.btn-check) + .btn:active,
+.btn:first-child:active,
+.btn.active,
+.btn.show {
+  color: #fff;
+  background-color: #feb708;
+}
+
+.dropdown-toggle.btn-warning {
+  background-color: #feb708;
+  height: 40px;
+}
+
+.dropdown-toggle.btn-warning:hover {
+  color: #fff;
+}
+
+.dropdown-menu.show {
+  background-color: #feb708;
+  color: #fff;
+  display: block;
+  border-radius: 2px;
+  padding: 0;
+}
+
+.dropdown-item {
+  height: 35px;
+  line-height: 30px;
+  color: #fff;
+  font-size: 13px;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #fff;
+  background-color: #fec539;
+}
+
+.testimonial-banner-title {
+  font-size: 30px;
+  color: #545454;
+  line-height: 33px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.mainLink {
+  color: #f15786;
+  text-decoration: none;
+}
+
+.mainBtn.active,
+.mainBtn:active {
+  background-color: #f15786 !important;
+  border-bottom: 2px solid #cc718d !important;
+  opacity: 0 !important;
+}
+
+.mainBtn {
+  background-color: #f15786;
+  border: none;
+  height: 34px;
+  width: 80px;
+  border-bottom: 2px solid #cc718d;
+}
+
+.mainBtn:hover {
+  border-bottom: 2px solid #cc718d;
+  background-color: #f15786;
+  opacity: 0.8;
+}
+
+.facebookBtn {
+  height: 40px;
+  line-height: 40px;
+  background-color: rgb(50, 79, 138);
+}
+
+.facebookBtn span {
+  color: #fff;
+}
+
+.login-line-height {
+  background-color: #cdd5dd;
+  height: 2px;
+  width: 40%;
+  margin-top: 10px;
+}
+
+.login-or-height {
+  width: 20%;
+}
+
+.btnLight {
+  line-height: 34px;
+  height: 34px;
+  width: 130px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.btnLight:hover {
+  opacity: 0.7;
+}
+
+.btnLight span {
+  color: #23aaaa;
+  font-size: 14px;
+}
+@media (min-width: 1200px) {
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 960px;
+  }
+}
